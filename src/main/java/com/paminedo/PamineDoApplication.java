@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class PamineDoApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(PamineDoApplication.class, args);
-	}
+  public static void main(String[] args) {
+    SpringApplication.run(PamineDoApplication.class, args);
+  }
 
 }
