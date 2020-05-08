@@ -1,7 +1,8 @@
 package com.paminedo.domain;
 
 import org.springframework.data.jpa.repository.JpaRepository;
+import com.paminedo.domain.Task;
 
-interface TaskRepository extends JpaRepository<Task, Long> {
+public interface TaskRepository extends JpaRepository<Task, Long> {
 
 }
